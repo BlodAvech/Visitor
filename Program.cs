@@ -8,7 +8,9 @@ foreach(IMaterial material in materials)
 	{
 		Console.WriteLine(material);
 		Console.WriteLine(weapon);
-		material.Accept(weapon);
+		System.Console.WriteLine(material.Durability);
+		weapon.Hit(material);
+		System.Console.WriteLine(material.Durability);
 		Console.WriteLine();
 	}
 }

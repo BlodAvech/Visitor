@@ -21,3 +21,4 @@ c:\Users\topda\Desktop\SDP\Visitor\obj\Debug\net9.0\refint\Visitor.dll
 c:\Users\topda\Desktop\SDP\Visitor\obj\Debug\net9.0\Visitor.pdb
 C:\Users\topda\Desktop\SDP\Visitor\obj\Debug\net9.0\Visitor.genruntimeconfig.cache
 C:\Users\topda\Desktop\SDP\Visitor\obj\Debug\net9.0\ref\Visitor.dll
+c:\Users\topda\Desktop\SDP\Visitor\obj\Debug\net9.0\Visitor.sourcelink.json

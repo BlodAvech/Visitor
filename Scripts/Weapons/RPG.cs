@@ -1,17 +1,9 @@
-public class RPG : IWeapon 
+public class RPG : IWeapon
 {
-	public void Visit(Glass glass)
-	{
-		Console.WriteLine("Стекло разлетелось");
-	}
+	public int Damage { get; set; } = 300;
 
-	public void Visit(Wood wood)
+	public void Hit(IMaterial material)
 	{
-		Console.WriteLine("Дерево разлетелось в щепки");
-	}
-
-	public void Visit(Dirt dirt)
-	{
-		Console.WriteLine("Получился окоп");
+		material.Visit(this);
 	}
 }

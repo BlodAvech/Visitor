@@ -1,17 +1,9 @@
 public class Knife : IWeapon
 {
-	public void Visit(Glass glass)
-	{
-		Console.WriteLine("Стекло поцарапалось");
-	}
+	public int Damage { get; set; } = 10;
 
-	public void Visit(Wood wood)
+	public void Hit(IMaterial material)
 	{
-		Console.WriteLine("Дерево получило вмятину");
-	}
-
-	public void Visit(Dirt dirt)
-	{
-		Console.WriteLine("Ничего не случилось");
+		material.Visit(this);
 	}
 }
